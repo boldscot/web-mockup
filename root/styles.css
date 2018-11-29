@@ -1,0 +1,145 @@
+body, html {
+	min-width: 100vw;
+}
+
+.bgimg1 {
+	background-image: url("../images/background.png");
+	background-size:100%;
+	width: 1920px;
+	height: 680px;
+	min-width: 1170px;
+	min-height: 700px;
+	text-align: center;
+	vertical-align: middle;
+	display: table-cell;
+	position: relative;
+}
+
+.section-1 {
+	display: inline-block;
+	width: 500px;
+	height: 150px;
+}
+
+h1 {
+	color: white;
+}
+
+h5 {
+	padding: 20px;
+}
+
+.scroll-down-button {
+	position: absolute;
+	background-color: #e6e6e6;
+	border: 0;
+	bottom: 5%;
+	left: 45%;
+	border-radius: 25px;
+}
+
+.work-with-us {
+	background-color: #2b9b2b;
+	border: 0;
+	color: white;
+	font-size: 25px;
+	width: 300px;
+	border-radius: 25px;
+	padding: 10px;
+}
+
+.section-2 {
+	min-width: 1170px;
+	min-height: 600px;
+}
+
+.section-3 {
+	background-color: #54d154;
+	min-width: 1170px;
+	min-height: 600px;
+	text-align: center;
+	border: solid 2px red;
+}
+
+.sec-2-header {
+	margin-top: 30px;
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+.sec-3-header {
+	text-align: center;
+	padding-top: 40px;
+}
+
+.underline-h3 {
+	text-decoration: none;
+	border-bottom: solid;
+	border-bottom-width: 2px;
+}
+
+.row {
+	margin-top: 100px;
+}
+
+.col-sm-4 {
+	text-align: center;
+}
+
+.btn {
+	border: solid 1px #2b9b2b;
+	border-radius: 25px;
+	background-color: white;
+	color: #2b9b2b;
+}
+
+.btn:focus {
+	color: white;
+	box-shadow: none;
+	background-color: #2b9b2b;
+}
+
+.learn-more-button  {
+	background-color: #2b9b2b;
+	border: 0;
+	color: white;
+	font-size: 10px;
+	width: 160px;
+	border-radius: 25px;
+	padding: 10px;
+}
+
+.view-more-button {
+	background-color: #2b9b2b;
+	border: 0;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	color: white;
+	font-size: 18px;
+	width: 200px;
+	border-radius: 25px;
+	padding: 10px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 20%;
+    padding: 5px;
+}
+
+.img-row {
+	margin-left: 100px;
+	margin-right: 100px;
+	padding: 10px;
+}
+
+
+.img-row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
