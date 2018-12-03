@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title> Bootstrap 4 Website Example </title>
+  <title> Art </title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
@@ -10,6 +10,8 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <script src="../scripts/scrollfunctions.js"></script>
+  <script src="../scripts/loadimages.js"></script>
 </head>
 
   <nav class="navbar navbar-default navbar-custom navbar-expand-sm navbar-trans">
@@ -41,13 +43,19 @@
       <h1> Art is Eternal Happiness </h1>
       <button class="work-with-us"> WORK WITH US</button>
     </div>
-    <button class="scroll-down-button"> scroll down <i class="fa fa-arrow-down"></i></button>
+    <button class="scroll-down-button">
+      scroll down <i class="fa fa-arrow-down arrow-down"></i>
+    </button>
   </div>
 
   <div class="section-2">
     <div class="sec-2-header">
-      <h3> WHA<span class="underline-h3">T W</span>E DO</h3>
-      <p> Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet </p>
+      <div class="section-2-title"> 
+        WHAT WE DO
+        <div class="rectangle"></div>
+      </div>
+
+      <p class="sec-2-title-p"> Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet </p>
     </div>
     <div class="row">
       <div class="col-sm-4">
@@ -88,51 +96,64 @@
 
   <div class="section-3">
     <div class="sec-3-header">
-      <h3>OUR LA<span class="underline-h3">TES</span>T WORK</h3>
-      <p>Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet</p>
+      <div class="sec-3-title">
+        OUR LATEST WORK
+        <div class="rectangle-2"></div>
+      </div>
+      <p class="sec-3-title-p">Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet</p>
+    </div>
+
       <div class="btn-group">
-        <button type="button" class="btn btn-primary">Photography</button>
-        <button type="button" class="btn btn-primary">Design</button>
-        <button type="button" class="btn btn-primary">Print</button>
+        <button type="button" class="btn btn-photo" autofocus="autofocus">Photography</button>
+        <button type="button" class="btn btn-design">Design</button>
+        <button type="button" class="btn btn-print">Print</button>
       </div>
-    </div>
 
-    <div class="img-row">
-      <div class="column">
-        <img src="../images/rec.png">
-      </div>
-      <div class="column">
-        <img src="../images/rec.png">
-      </div>
-      <div class="column">
-        <img src="../images/rec.png">
-      </div>
-      <div class="column">
-        <img src="../images/rec.png">
-      </div>
-      <div class="column">
-        <img src="../images/rec.png">
-      </div>
-    </div>
-
-    <div class="img-row">
-      <div class="column">
-        <img src="../images/rec.png">
-      </div>
-      <div class="column">
-        <img src="../images/rec.png">
-      </div>
-      <div class="column">
-        <img src="../images/rec.png">
-      </div>
-      <div class="column">
-        <img src="../images/rec.png">
-      </div>
-      <div class="column">
-        <img src="../images/rec.png">
-      </div>
+    <div class="grid">
+      <img class="grid-image" id="img-1" src="../images/photo/photo-img-1.jpg" alt="No Image">
+      <img class="grid-image" id="img-2" src="../images/photo/photo-img-2.jpg" alt="No Image">
+      <img class="grid-image" id="img-3" src="../images/photo/photo-img-3.jpg" alt="No Image">
+      <img class="grid-image" id="img-4" src="../images/photo/photo-img-4.jpg" alt="No Image">
+      <img class="grid-image" id="img-5" src="../images/photo/photo-img-5.jpg" alt="No Image">
+      <img class="grid-image" id="img-6" src="../images/photo/photo-img-6.jpg" alt="No Image">
+      <img class="grid-image" id="img-7" src="../images/photo/photo-img-7.jpg" alt="No Image">
+      <img class="grid-image" id="img-8" src="../images/photo/photo-img-8.jpg" alt="No Image">
+      <img class="grid-image" id="img-9" src="../images/photo/photo-img-9.jpg" alt="No Image">
+      <img class="grid-image" id="img-10" src="../images/photo/photo-img-10.jpg" alt="No Image">
     </div>
     <button class="view-more-button"> View more work <i class="fa fa-arrow-right">   </i></button>
+  </div>
+
+  <div class="section-4">
+    <div class="sec-4-header">
+      <div class="section-4-title"> 
+        TESTIMONIALS
+        <div class="rectangle"></div>
+      </div>
+      <p class="sec-4-title-p"> Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet </p>
+    </div>
+
+    <div class="statement">
+      <div class="row">
+        <div class="col">
+          <img class="left-arrow" src="../images/left.png">
+        </div>
+        <div class="col-6">
+          <p class="testimonial-text">
+             “Awalnya saya tidak menderita penyakit apapun, namun setelah saya tidak 
+              berobat ke klinik tongfang, saya dinyatakan tidak menderita penyakit apapun!”
+          </p>
+          <div class="client">
+            
+          </div>
+
+        </div>
+        <div class="col">
+          <img class="right-arrow" src="../images/right.png">
+        </div>
+      </div>
+    </div>
+    
   </div>
 
 </body>
