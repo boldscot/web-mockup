@@ -11,6 +11,7 @@ body, html {
 	min-height: 700px;
 	text-align: center;
 	vertical-align: middle;
+	margin: auto;
 	display: table-cell;
 	position: relative;
 }
@@ -107,6 +108,7 @@ h5 {
 	border-radius: 23px;
 	background-color: #54d154;
 	padding: 10px;
+	box-shadow: -10px 10px 5px rgba(0,0,0,0.18);
 }
 
 .section-2 {
@@ -114,17 +116,17 @@ h5 {
 	height: 577px;
 }
 
+.sec-2-header {
+	margin-top: 30px;
+	text-align: center;
+	margin-bottom: 100px;
+}
+
 .section-3 {
 	background-color: #54d154;
 	min-width: 1170px;
 	height: 748px;
 	text-align: center;
-}
-
-.sec-2-header {
-	margin-top: 30px;
-	text-align: center;
-	margin-bottom: 100px;
 }
 
 .sec-3-header {
@@ -150,7 +152,14 @@ h5 {
 	margin-bottom: 50px;
 }
 
-.col-sm-4 {
+.container {
+	min-width: 1170px; 
+	text-align: center;
+	margin: auto;
+}
+
+.col-xs-4 {
+	min-width: 33.333333%;
 	font-size: 16px;
 	color: #b7b3b3;
 	font-family: "Open Sans";
@@ -225,20 +234,20 @@ h5 {
 }
 
 .grid {
-	width: 80%;
 	margin: auto;
 }
 
 .grid-image {
 	display: inline-block;
-  	width: 160px;
-  	height: 160px;
+  	width: 15%;
+  	height: 170px;
   	margin: 15px;
   	zoom: 1;  
   	display*:inline; 
 }
 
-.section-4{
+.section-4 {
+	margin: 5px;
 	min-width: 1170px;
 	height: 342px;
 	background-color: #ffffff;
@@ -272,9 +281,224 @@ h5 {
 	margin: auto;
 }
 
-.text {
+.left-arrow {
+	padding-top: 20px;
+}
+
+.right-arrow {
+	padding-top: 20px;
+}
+
+.testimonial-text {
 	font-size: 16px;
 	color: #444444;
 	font-family: "Proxima Nova";
 	text-align: center;
 }
+
+.client-container {
+	display: flex;
+	width: 250px;
+	margin: auto;
+}
+
+.client-img-container {
+}
+
+.client-details-container {
+	margin-left: 10px;
+	height: 42px;
+	text-align: left;
+}
+
+.client-img {
+	width: 42px;
+	height: 42px;
+	border-radius: 21px;
+	background-color: #ffffff;
+	border: 2px solid #e1e1e1;
+}
+
+.client-name {
+	margin-bottom: 0;
+	width: 250px;
+	font-size: 16px;
+	color: #444444;
+	font-family: "Proxima Nova";
+}
+
+.client-company {
+	width: 250px;
+	font-size: 16px;
+	color: #cccccc;
+	font-family: "Proxima Nova";
+	font-weight: bold;
+}
+
+.section-5 {
+	background-color: #f2f1f1;
+	min-width: 1170px;
+	height: 497px;
+	text-align: center;
+}
+
+.sec-5-header {
+	margin-bottom: 70px;
+}
+
+.section-5-title {
+	padding-top: 30px;
+	font-size: 20px;
+	letter-spacing: 4px;
+	color: #828181;
+	font-family: "Montserrat";
+	font-weight: 300;
+	text-align: center;
+}
+
+.sec-5-title-p {
+	font-size: 16px;
+	color: #b7b3b3;
+	font-family: "Open Sans";
+	font-weight: 300;
+	text-align: center;
+}
+
+.col-xs-3 {
+	width: 20%;
+	margin: auto;
+	margin-bottom: 50px;
+}
+
+.all-client-button {
+	width: 186px;
+	height: 40px;
+	border: 0;
+	margin-top: 20px;
+	border-radius: 20px;
+	background-color: #dddcdc;
+	font-size: 18px;
+	color: #a59d9d;
+	font-family: "Proxima Nova";
+	text-align: center;
+}
+
+.shape2 {
+	padding-left: 20px;
+}
+
+.section-6 {
+	min-width: 1170px;
+	height: 552px;
+	background-color: #54d154;
+}
+
+.sec-6-title {
+	padding-top: 30px;
+	font-size: 20px;
+	letter-spacing: 4px;
+	color: #207b20;
+	font-family: "Montserrat";
+	font-weight: 300;
+	text-align: center;
+}
+
+.sec-6-title-p {
+	font-size: 16px;
+	color: #2b9b2b;
+	font-family: "Open Sans";
+	font-weight: 300;
+	text-align: center;
+}
+
+.sec-6-footer {
+	min-width: 1170px;
+	height: 94px;
+	background-color: #3eba3e;
+	text-align: center;
+}
+
+.work-with-us-2 {
+	margin-top: 30px;
+	font-size: 19px;
+	color: #ffffff;
+	border:0;
+	font-family: "Proxima Nova";
+	font-weight: 300;
+	text-align: center;
+	width: 175px;
+	height: 40px;
+	border-radius: 20px;
+	box-shadow: 2.5px 4.33px 5px rgba(0,0,0,0.1);
+	background-color: #54d154
+}
+
+.team-container {
+	width: 80%;
+	height: auto;
+	margin: auto;
+	padding-top: 30px;
+	display: flex;
+}
+
+.team-member {
+	text-align: center;
+	width: 20%;
+}
+
+.avatar {
+	width: 124px;
+	height: 124px;
+	border-radius: 62px;
+	background-color: #ffffff;
+	text-align: center;
+}
+
+.shape5 {
+	display: flex;
+   	flex-direction: column;
+   	margin: auto;
+   	padding-top: 10px;
+   	padding-bottom: 10px;
+}
+
+.member-name {
+	font-size: 16px;
+	color: #ffffff;
+	font-family: "Proxima Nova";
+	text-align: center;
+}
+
+.rounded-rectangle {
+	width: 84px;
+	height: 28px;
+	border-radius: 14px;
+	background-color: #c5e9c5;
+	margin: auto;
+	display: flex;
+   	flex-direction: row;
+}
+
+.rounded-rectangle > img {
+	margin: 4px;
+}
+
+.twitter {
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+}
+
+.be {
+	width: 20px;
+	height: 20px;
+	border-radius: 1px;
+}
+
+.ball {
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+}
+
+

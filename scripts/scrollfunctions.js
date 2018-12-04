@@ -1,6 +1,6 @@
-$(document).ready(function() {
-	$(".scroll-down-button").click(function() {
-		$('html, body').animate({
+jQuery(document).ready(function() {
+	jQuery(".scroll-down-button").click(function() {
+		jQuery('html, body').animate({
 			scrollTop: $(".section-2").offset().top
 		}, 1000);
 	}); 
