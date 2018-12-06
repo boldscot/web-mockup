@@ -7,9 +7,8 @@ body, html {
 .navbar {
 	max-width: 1170px;
 	min-width: 1170px;
-	height: 40px;
+	height: 35px;
 	margin: auto;
-	border: solid 2px red;
 }
 
 .nav-item {
@@ -21,7 +20,26 @@ body, html {
 	font-size: 16px;
 	color: #ffffff;
 	font-family: "Proxima Nova";
+}
+
+.nav-not-home {
+	padding-top: 24px;
+}
+
+.home-item {
+	font-size: 16px;
+	color: #ffffff;
+	font-family: "Proxima Nova";
 	font-weight: bold;
+}
+
+.swicth-text {
+	padding-left: 180px;
+	padding-top: 20px;
+	font-size: 24px;
+	color: #ffffff;
+	font-family: "Nautilus Pompilius";
+	text-align: center;
 }
 
 input#search {
@@ -40,19 +58,32 @@ input#search {
 	background-color: #ffffff;
 }
 
-.bgimg1 {
-	background-image: url("../images/background.png");
-	background-size:100%;
-	width: 1920px;
-	height: 680px;
-	min-width: 1170px;
-	max-width: 1170px;
-	min-height: 700px;
+.section-1 {
+	background-image: url("../images/bg.png");
+	width: 1170px;
+	height: 750px;
 	text-align: center;
-	vertical-align: middle;
+}
+
+.sec-1-header {
+	padding-top: 350px;
+	width: 600px;
 	margin: auto;
-	display: table-cell;
-	position: relative;
+}
+
+.scroll-down-button {
+	margin-top: 200px;
+	font-size: 16px;
+	color: #111111;
+	font-family: "Proxima Nova";
+	font-weight: 300;
+	text-align: center;
+	width: 120px;
+	height: 25px;
+	border-radius: 13px;
+    border: none;
+    background-color: #ffffff;
+    opacity: 0.8;
 }
 
 h1 {
@@ -62,6 +93,7 @@ h1 {
 	font-family: "Montserrat";
 	font-weight: bold;
 	text-align: center;
+	vertical-align: center;
 	text-shadow: 21.5px 37.239px 5px rgba(0,0,0,0.18);
 }
 
@@ -129,23 +161,6 @@ h5 {
 	height: 2px;
 	background-color: #dddddd;;
 	margin: 0 auto;
-}
-
-.scroll-down-button {
-	position: absolute;
-	border: 0;
-	bottom: 5%;
-	left: 45%;
-	font-size: 16px;
-	color: #111111;
-	font-family: "Proxima Nova";
-	font-weight: 300;
-	text-align: center;
-	width: 120px;
-	height: 25px;
-	border-radius: 13px;
-	background-color: #ffffff
-
 }
 
 .arrow-down {
@@ -615,6 +630,8 @@ h5 {
 #contact-message{
 	font-size: 16px;
 	height: 130px;
+	max-height: 130px;
+	min-height: 130px;
 	color: #777777;
 	border: 0;
 	font-family: "Proxima Nova";
